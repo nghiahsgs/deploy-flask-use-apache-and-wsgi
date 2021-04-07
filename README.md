@@ -30,7 +30,7 @@ Cấu trúc thư mục sẽ kiểu
 ```
 
 
-Mở file __init.py__ và cho đoạn code mẫu tạo 1 server sẽ hello khi vào trang chủ.
+Mở file ```__init.py__``` và cho đoạn code mẫu tạo 1 server sẽ hello khi vào trang chủ.
 
 ## Bước 3: Cài đặt flask
 Lưu ý là các câu lệnh phải chạy ở sudo nhé.

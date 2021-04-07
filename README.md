@@ -53,7 +53,7 @@ hoặc
 sudo python3 __init__.py
 ```
 
-Bước 4: Cài đặt file cấu hình trong apache
+## Bước 4: Cài đặt file cấu hình trong apache
 ```
 vi /etc/apache2/sites-available/FlaskApp.conf
 ```
@@ -85,7 +85,7 @@ Sau khi tạo xong file cấu hình thì kích hoạt nó lên bằng câu lện
 sudo a2ensite FlaskApp
 ```
 
-Bước 5: tạo file wsgi
+## Bước 5: tạo file wsgi
 ```
 cd /var/www/FaskApp
 vi flaskapp.wsgi (tên file giống tên file bạn đã đặt trong file cấu hình apache)

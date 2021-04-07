@@ -31,6 +31,15 @@ Cấu trúc thư mục sẽ kiểu
 
 
 Mở file ```__init.py__``` và cho đoạn code mẫu tạo 1 server sẽ hello khi vào trang chủ.
+```
+from flask import Flask
+app = Flask(__name__)
+@app.route("/")
+def hello():
+    return "Hello, I love Digital Ocean!"
+if __name__ == "__main__":
+    app.run()
+```
 
 ## Bước 3: Cài đặt flask
 Lưu ý là các câu lệnh phải chạy ở sudo nhé.

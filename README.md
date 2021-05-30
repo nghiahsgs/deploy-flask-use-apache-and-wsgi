@@ -132,3 +132,7 @@ Tính đến hiện tại, cấu trúc thư mục sẽ như này
 sudo service apache2 restart 
 ```
 Sau đó bật trình duyệt, vào domain của bạn và tận hưởng (mywebsite.com). Bạn nào chưa có domain thì đổi nó ở file hosts
+
+
+## Lưu ý khi file __init__.py cần import các file vd utils.py
+thì cần di chuyển nó (nó là các file utils) ra thư mục ngoài (di chuyển lên 1 cấp)

@@ -12,7 +12,7 @@ sudo a2enmod wsgi
 
 hoặc
 ```
- sudo apt-get install libapache2-mod-wsgi-py3
+ sudo apt-get install libapache2-mod-wsgi-py3 python-dev
  sudo a2enmod wsgi
 ```
 

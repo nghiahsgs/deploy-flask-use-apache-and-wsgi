@@ -10,6 +10,12 @@ sudo apt-get install libapache2-mod-wsgi python-dev
 sudo a2enmod wsgi
 ```
 
+hoặc
+```
+ sudo apt-get install libapache2-mod-wsgi-py3
+ sudo a2enmod wsgi
+```
+
 ## Bước 2: Tạo Flask app theo cấu trúc như sau
 ```
 cd /var/www

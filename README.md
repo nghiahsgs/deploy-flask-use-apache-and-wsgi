@@ -3,6 +3,11 @@ deploy flask use apache and wsgi
 
 Bình thường khi các bạn code xong app flask, các bạn thường để nó ở chế độ dev bằng cầu lệnh đơn giản python index.py. Sau đó mở host cho truy cập tất cả, như vậy là xong một con api đơn giản. Các bạn có thể tham khảo simple api của mình dùng flask. https://github.com/nghiahsgs/simple-flask-server. Trong bài viết này mình hướng dẫn các bạn deploy app flask sử dùng apache 2 và gắn domain cho app flask.
 
+## better way
+```
+cach 2: https://github.com/nghiahsgs/deploy-node-js-app-to-ubuntu-using-nginx-and-ssl
+```
+
 ## Bước 1: Cài và kích hoạt chế độ mod_wsgi
 WSGI (webserver gateway interface) là interface giữa web server và app flask. Cơ bản nó sẽ kết nối apache và flask với nhau.
 ```
